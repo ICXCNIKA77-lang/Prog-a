@@ -1,5 +1,6 @@
 public class Patient {
 
+    // Declare all necassary variables for each patient.
     private String patientId;
     private String firstName;
     private String lastName;
@@ -8,6 +9,7 @@ public class Patient {
     private String medicalCondition;
     private PatientCategory category;
 
+    // Constructor to create objects.
     public Patient(String patientId, String firstName, String lastName, int age, String gender, String medicalCondition, PatientCategory category) {
         this.patientId = patientId;
         this.firstName = firstName;
@@ -61,6 +63,7 @@ public class Patient {
     }
 
 
+    // Method to display details of the patient. ( is overiden in the child parent )
     public void displayDetails() {
         System.out.println("ID: " + patientId);
         System.out.println("Name: " + firstName + " " + lastName);
