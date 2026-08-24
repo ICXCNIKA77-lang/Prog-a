@@ -7,7 +7,8 @@ public class Main {
 
     public static void main(String[] args) {
         boolean running = true;
-
+        
+        //Print out menu
         while (running) {
             System.out.println("\n-=-=-=--==-=-=-=-=-=-= MEDICARE HOSPITAL ADMISSION SYSTEM -=-=-=-=-=-=-=-=-==-=-=-=-=-");
             System.out.println("1. Patient Management");
@@ -43,6 +44,7 @@ public class Main {
         }
     }
 
+    //Print out patient managment menu
     private static void patientManagementMenu() {
         System.out.println("\n~_~_~_~_~_~_~_ PATIENT MANAGEMENT ~_~_~_~_~_~_~_~_~_~");
         System.out.println("1. Register New Patient");
