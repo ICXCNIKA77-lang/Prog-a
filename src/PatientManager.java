@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
+// This class essentially make sure each patient is correctly created.
 public class PatientManager {
     private ArrayList<Patient> patientList = new ArrayList<>();
 
