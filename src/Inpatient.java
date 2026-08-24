@@ -1,3 +1,4 @@
+// Extends Patient class
 public class Inpatient extends Patient {
     private String wardNumber;
     private String bedNumber;
@@ -18,6 +19,7 @@ public class Inpatient extends Patient {
         this.bedNumber = bedNumber;
     }
 
+    // Overrides the method from parent class.
     @Override
     public void displayDetails() {
         super.displayDetails();
