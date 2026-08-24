@@ -185,7 +185,7 @@ public class Main {
         }
     }
 
-    // === PASTE THIS REPLACEMENT METHOD IN Main.java ===
+    // Bed management printing
     private static void bedManagementMenu() {
         System.out.println("\n--- BED MANAGEMENT ---");
         System.out.println("1. Automatically Allocate First Available Bed");
