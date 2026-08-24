@@ -85,7 +85,7 @@ public class BedManager {
         int row = getRow(bedNumber);
         int col = getCol(bedNumber);
 
-        // FIX: Return early if empty to prevent NullPointerException
+        // Return early if empty to prevent NullPointerException
         if (ward[row][col] == null) {
             System.out.println("Error: Bed " + formatBedCode(bedNumber) + " is already empty!");
             return false;
