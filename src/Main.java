@@ -122,6 +122,7 @@ public class Main {
         System.out.print("Enter Medical Condition: ");
         String condition = scanner.nextLine().trim();
 
+        // Category menu 
         System.out.println("--- SELECT CATEGORY ---");
         System.out.println("1. Inpatient");
         System.out.println("2. Outpatient");
