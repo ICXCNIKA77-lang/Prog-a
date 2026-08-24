@@ -252,6 +252,7 @@ public class Main {
         }
     }
 
+    // Print out Ward reports and metrics 
     private static void reportsMenu() {
         System.out.println("\n_~_~_~_~_~_~ WARD REPORTS & METRICS ~_~_~_~_~_~_~_");
         int totalPatients = patientManager.getTotalPatientsCount();
